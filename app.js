@@ -20,7 +20,7 @@ function MsgController($scope,$filter,lovesFilter) {
   $scope.sayloveMessage = function () {
     var msg="Yaakov likes to eat healthy snacks at night!"
     msg=lovesFilter(msg);
-    // var output=$filter('uppercase')(msg);
+    // var out=$filter('uppercase')(msg);
     
     return msg;
   };
